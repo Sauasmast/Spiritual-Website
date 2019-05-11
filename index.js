@@ -7,36 +7,19 @@ $(document).ready(function() {
   var typed3 = new Typed('.js-type', {
     strings: [
       'Glitch',
-      "Hi It's me:  Sauasmast",
-      "Hi It's me: Saugat",
-      ' Programmer and Web Designer',
-      'IOT Developer',
-      'Check out my portfolio',
-      'Reach Out'
+      'Feeling Low?',
+      'Depressed?',
+      "Don't want to do anything?",
+      "It's Okay!!",
+      'Life is Tough',
+      "It's Okay !!",
+      'You are the best person in this world'
     ],
     typeSpeed: 100,
     backSpeed: 100,
     smartBackspace: true, // this is a default
     loop: true
   });
-});
-
-/* For reloading the page */
-window.onbeforeunload = function() {
-  window.scrollTo(0, 0);
-};
-
-/* For Scrolling to the specific points */
-$('.js-scroll-me').click(function() {
-  $('html,body').animate({ scrollTop: $('.aboutme').offset().top }, 1000);
-});
-
-$('.js-scroll-projects').click(function() {
-  $('html,body').animate({ scrollTop: $('.projects').offset().top }, 1000);
-});
-
-$('.js-scroll-contact').click(function() {
-  $('html,body').animate({ scrollTop: $('.dirt').offset().top }, 1000);
 });
 
 /* Adding the animation on scroll with the waypoints */

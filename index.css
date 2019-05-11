@@ -20,7 +20,6 @@ h2 {
 }
 
 h3 {
-  font-size: 150%;
 }
 
 h1,
@@ -35,7 +34,7 @@ h5 {
 h2:after {
   display: block;
   height: 3px;
-  background-color: #ddc350;
+  background-color: red;
   content: '';
   width: 150px;
   margin: 0 auto;
@@ -65,13 +64,24 @@ img {
 
 .header-box {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(./assest/Coding.jpg);
+    url(./assest/Happiness.jpeg);
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
   height: 100vh;
   padding: 20px 20px;
   position: relative;
+}
+
+.logo {
+  height: 100px;
+  width: auto;
+}
+
+.love {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
 }
 
 .navbar {
@@ -121,8 +131,8 @@ nav a {
 }
 
 .aboutme-photo {
-  height: 200px;
-  width: auto;
+  height: 250px;
+  width: 250px;
   border-radius: 50%;
 }
 
@@ -133,6 +143,19 @@ nav a {
 
 .aboutme .list-group-item {
   font-size: 100%;
+}
+
+.quotes {
+  background-color: lightgrey;
+  padding: 60px 80px;
+  line-height: 1.8em;
+  position: relative;
+  overflow: hidden;
+}
+
+li {
+  list-style: none;
+  color: black;
 }
 
 /* ----------------------------------------- Animation for skills -----------------------------------*/
@@ -202,48 +225,39 @@ nav a {
 }
 
 .pycom {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(./assest/pycom.jpg);
+  background-image: url(./assest/Slum1.jpg);
 }
 
 .website {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(./assest/Upshaw.png);
+  background-image: url(./assest/Slum2.jpg);
 }
 
 .adruino {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(./assest/Adruino.jpg);
+  background-image: url(./assest/Slum3.jpeg);
 }
 
 .garmin-api {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(./assest/garmin.png);
+  background-image: url(./assest/Slum4.jpeg);
 }
 
 .mini-projects {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(./assest/Miniprojects.jpg);
+  background-image: url(./assest/Slum5.jpg);
 }
 
 .book-project {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(./assest/Book_Image.jpg);
+  background-image: url(./assest/Slum6.jpg);
 }
 
 .cook-me {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(./assest/food.jpg);
+  background-image: url(./assest/Slum7.jpeg);
 }
 
 .dataalgo {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(./assest/coding_algo.jpg);
+  background-image: url(./assest/Love.jpg);
 }
 
 .fullstack {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(./assest/party.jpg);
+  background-image: url(./assest/Slum9.jpg);
 }
 
 .pycom,
@@ -272,40 +286,49 @@ nav a {
 }
 
 /* ------------------------------------------ Animation for a display page ------------------------ */
-.pycom:hover .information {
-  display: block;
+.pycom:hover {
+  transform: scale(1.1);
+  z-index: 1;
 }
 
-.website:hover .information {
-  display: block;
+.website:hover {
+  transform: scale(1.1);
+  z-index: 1;
 }
 
-.adruino:hover .information {
-  display: block;
+.adruino:hover {
+  transform: scale(1.1);
+  z-index: 1;
 }
 
-.garmin-api:hover .information {
-  display: block;
+.garmin-api:hover {
+  transform: scale(1.1);
+  z-index: 1;
 }
 
-.mini-projects:hover .information {
-  display: block;
+.mini-projects:hover {
+  transform: scale(1.1);
+  z-index: 1;
 }
 
-.book-project:hover .information {
-  display: block;
+.book-project:hover {
+  transform: scale(1.1);
+  z-index: 1;
 }
 
-.cook-me:hover .information {
-  display: block;
+.cook-me:hover {
+  transform: scale(1.1);
+  z-index: 1;
 }
 
-.dataalgo:hover .information {
-  display: block;
+.dataalgo:hover {
+  transform: scale(1.1);
+  z-index: 1;
 }
 
-.fullstack:hover .information {
-  display: block;
+.fullstack:hover {
+  transform: scale(1.1);
+  z-index: 1;
 }
 
 /* -------------------------------- Get your hand dirty ------------------------------------------- */
